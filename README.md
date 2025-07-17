@@ -83,7 +83,7 @@ This UML class diagram shows the structural design of the Password Manager appli
 
 -PasswordEntry: Represents a single password record, including website, username, password, and description. This class helps organize and format stored data.
 
--PasswordManager: Handles the saving, loading, and storage of password entries. It manages a collection of PasswordEntry objects and interacts with file storage (or memory, depending on your implementation).
+-PasswordManager: Handles the saving, loading, and storage of password entries. It manages a collection of PasswordEntry objects and interacts with file storage (or memory, depending on implementation).
 
 This architecture ensures a clean separation of responsibilities and improves maintainability, testing, and extensibility.
 
