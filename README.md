@@ -73,6 +73,22 @@ Encryption (e.g., using Fernet / AES)
 
 Secure storage (e.g., encrypted database or keyring)
 
+# 📘 UML Class Diagram
+
+This UML class diagram shows the structural design of the Password Manager application. It defines four core components:
+
+-GUI: Manages the user interface, event handling, and user interactions. It connects with the generator and manager classes to handle password creation and storage.
+
+-PasswordGenerator: Responsible for generating secure passwords based on specified criteria (length, complexity, etc.).
+
+-PasswordEntry: Represents a single password record, including website, username, password, and description. This class helps organize and format stored data.
+
+-PasswordManager: Handles the saving, loading, and storage of password entries. It manages a collection of PasswordEntry objects and interacts with file storage (or memory, depending on your implementation).
+
+This architecture ensures a clean separation of responsibilities and improves maintainability, testing, and extensibility.
+
+![UML Class Diagram](screen/uml_class_diagram.png)
+
 # 📌 Requirements
 Python 3.8+
 
