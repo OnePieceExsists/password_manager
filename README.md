@@ -43,9 +43,8 @@ python -m unittest discover tests/
 
 
 # Project Structure
-
+```
 password_manager/
-│
 ├── main.py
 ├── password_generator.py
 ├── password_manager.py
@@ -56,7 +55,7 @@ password_manager/
 └── tests/
     ├── test_password_generator.py
     └── test_password_manager.py
-
+```
 
 # 🖥️ Screenshots
 
